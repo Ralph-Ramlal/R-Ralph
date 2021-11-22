@@ -1,0 +1,60 @@
+Soulution for Homework #4
+
+adding users
+
+sudo adduser sam 
+sudo adduser joe
+sudo adduser amy
+sudo adduser sara
+sudo adduser admin
+
+root read and write to shadow
+
+ls -l /etc/shadow
+sudo chmod 600 /etc/shadow
+ls -l /etc/shadow
+echo
+
+root read and write to gshadow
+
+ls -l /etc/gshadow
+sudo chmod 600 /etc/gshadow
+ls -l /etc/gshadow
+echo
+
+root read write group and everyone read only
+
+ls -l /etc/group
+sudo chmod 644 /etc/group
+ls -l /etc/group
+echo
+
+root read and write and everyone else read only
+
+ls -l /etc/passwd
+sudo chmod 644 /etc/passwd
+ls -l /etc/passwd
+
+add sudo to admin
+
+sudo usermod -aG sudo admin
+
+creat engineers group
+
+sudo groupadd engineers
+sudo usermod -a -G engineers sam
+sudo usermod -a -G engineers joe
+sudo usermod -a -G engineers amy
+sudo usermod -a -G engineers sara
+
+create home folder
+
+mkdir /home/engineers
+
+adding group to folder
+
+sudo chgrp engineers /home/engineers
+
+Update system
+sudo apt get update
+sudo apt get upgrade
