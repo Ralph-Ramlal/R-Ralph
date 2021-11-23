@@ -111,10 +111,12 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 
 Download,update and run playbook
 
+
+
 The commands to used to update files
-#
 nano hosts
 nano playbook_file.yml
-#
+
+
 The comand used to run the playbook
 ansible-playbook-file.yml
