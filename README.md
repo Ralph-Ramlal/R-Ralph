@@ -66,10 +66,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 What is the main advantage of automating configuration with Ansible? Ansible is a configuration management platform that automates storage, servers, and networking. When you use Ansible to configure these components, difficult manual tasks become repeatable and less vulnerable to error.
 
 The playbook implements the following tasks:
-. Download and launch Elk container. The Elk docker will be downloaded and launched on boot
-. Install python3_pip. Will allow for additional docker modules and containers to be installed efficiently
-. Configured to set up the ELK stack together with Metricbeat for server monitoring.
-- 
+
+ Download and launch Elk container. The Elk docker will be downloaded and launched on boot
+ Install python3_pip. Will allow for additional docker modules and containers to be installed efficiently
+ Configured to set up the ELK stack together with Metricbeat for server monitoring.
+ 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
