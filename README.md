@@ -34,8 +34,8 @@ What does Metricbeat record? Metricbeat takes the metrics and statistics that it
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     |            Function           |      IP Adress            |      IP Adress         |
-|-----------------------------------------------------------------------------------------------|
+| Name    |            Function            |      IP Adress            |      IP Adress         |
+|---------|--------------------------------|---------------------------|------------------------|
 | Jump Box| Gateway                        |  10.0.0.1 /20.124.122.237 | Linux Ubuntu 18.04.01  |          
 | Web-1   | Webserver used to run DVWA     |  10.0.0.7                 | Linux Ubuntu 18.04.01  |       
 | Web-2   | Webserver used to run DVWA     |  10.0.0.8                 | Linux Ubuntu 18.04.01  |
@@ -55,7 +55,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible |      Allowed IP Addresses            |
 |----------|---------------------|--------------------------------------|
-| Jump Box | Yes                 | Workstation Public IP 73.115.160.129  |
+| Jump Box | Yes                 | Workstation Public IP 73.115.160.129 |
 | Web-1    | No                  |  Jump-Box IP 10.0.07                 |
 | Web-2    | No                  |  Jump-box IP 10.0.08                 |
 
@@ -112,8 +112,9 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 Download,update and run playbook
 
 The commands to used to update files
+#
 nano hosts
 nano playbook_file.yml
-
+#
 The comand used to run the playbook
 ansible-playbook-file.yml
