@@ -102,7 +102,7 @@ SSH into the control node and follow the steps below:
 - /etc/ansible/hosts
 
  How do I specify which machine to install the ELK server on versus which to install Filebeat on?
- Web-1 qnd Web-2 both private IP adress to the file host under [webserver] and  adding the private Ip adress on the ELK server
+ Web-1 and Web-2 both private IP adress to the file host under [webserver] and  adding the private Ip adress on the ELK server
  
 - _Which URL do you navigate to in order to check that the ELK server is running?
 http://20.122.9.18:5601/app/kibana#/home
