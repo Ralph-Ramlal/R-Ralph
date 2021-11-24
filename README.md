@@ -103,7 +103,7 @@ Which file do you update to make Ansible run the playbook on a specific machine?
  Web-1 and Web-2 both private IP adress to the file host under [webserver] and  adding the private Ip adress on the ELK server
  
 - Which URL do you navigate to in order to check that the ELK server is running?
-  http://20.122.9.18:5601/app/kibana#/home
+  http://[your.VM.IP]:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
