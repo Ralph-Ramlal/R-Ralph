@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._
 
@@ -102,8 +102,8 @@ SSH into the control node and follow the steps below:
  How do I specify which machine to install the ELK server on versus which to install Filebeat on?
  Web-1 and Web-2 both private IP adress to the file host under [webserver] and  adding the private Ip adress on the ELK server
  
-- _Which URL do you navigate to in order to check that the ELK server is running?
-http://20.122.9.18:5601/app/kibana#/home
+- Which URL do you navigate to in order to check that the ELK server is running?
+  http://20.122.9.18:5601/app/kibana#/home
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
