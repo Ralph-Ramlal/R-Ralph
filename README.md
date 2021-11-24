@@ -107,17 +107,10 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-Download,update and run playbook
+Playbookfile:
+.filebeat-playbook.yml
 
 
 
-The commands to used to update files
-
-nano hosts
-
-nano playbook_file.yml
 
 
-The comand used to run the playbook
-
-ansible-playbook-file.yml
