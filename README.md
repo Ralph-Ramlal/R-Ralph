@@ -9,7 +9,7 @@ https://github.com/Ralph-Ramlal/R-Ralph/commit/dcf6834f5cfdc46259c3be6b582a87b82
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+ https://github.com/Ralph-Ramlal/R-Ralph/blob/bd7ae2a38ba2486d46647649f652362d0fa18d3c/Diagrams/filebeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topologu
